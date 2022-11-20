@@ -1,0 +1,88 @@
+.contact-form1 {
+    width: 50%;
+   
+  
+    ul {
+      padding: 0;
+      margin: 0;
+  
+      li {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        margin-bottom: 10px;
+        opacity: 0;
+        overflow: hidden;
+        display: block;
+        clear: both;
+        position: relative;
+        animation: fadeInUp 2s 2s;
+        animation-fill-mode: forwards;
+      }
+  
+      li.half1 {
+        width: 49%;
+        margin-left: 2%;
+        float: left;
+        clear: none;
+  
+        &:first-child {
+          margin-left: 0;
+        }
+      }
+    }
+  
+    input[type='text'],
+    input[type='email'] {
+      width: 100%;
+      border: 0;
+      background: #f6cbcb;
+      height: 50px;
+      font-size: 16px;
+      color: #000000;
+      padding: 0 20px;
+      box-sizing: border-box;
+    }
+  
+    textarea {
+      width: 100%;
+      border: 0;
+      background: #f6cbcb;
+      height: 50px;
+      font-size: 16px;
+      color: #000000;
+      padding: 20px;
+      box-sizing: border-box;
+      min-height: 50px;
+    }
+  
+    .flat-button{
+      color: #000000;
+      font-size: 11px;
+      letter-spacing: 3px;
+      text-decoration: none;
+      padding: 7px 5px;
+      border: 1px solid #7dfb9a;
+      float: left;
+      border-radius: 4px;
+      background: 0 0;
+      text-transform: uppercase;
+      float: left;
+      text-align: center;
+      margin-right: 40px;
+    }
+
+  }
+
+  @media screen and (max-width: 1200px) {
+    .dashboard {
+      width: 100%;
+      height: 200px;
+      margin-right: 50px;
+
+    }
+   
+    .flat-button {
+      padding-right: 40px;
+    }
+  }

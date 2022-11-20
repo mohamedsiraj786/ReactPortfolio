@@ -1,0 +1,29 @@
+{
+    "portfolio" :[
+
+        {
+            "cover": "/portfolio/1/fitnessapp.jpg",
+            "title": "Fitness App",
+            "description": "java,firbase, animations", 
+            "url": "http://google.com"
+        },
+        {
+            "cover": "/portfolio/1/login.jpg",
+            "title": "Login Page",
+            "description": "user login,java L,db", 
+            "url": "http://google.com"
+        },
+        {
+            "cover": "/portfolio/1/mobileapp.jpg",
+            "title": "App Developemnt",
+            "description": "java,firbase,", 
+            "url": "http://google.com"
+        },
+        {
+            "cover": "/portfolio/1/webdevelopment.jpg",
+            "title": "Web Development",
+            "description": "React,html, javascript, java", 
+            "url": "http://google.com"
+        }
+    ]
+}
